@@ -1,4 +1,9 @@
 .container {
-  overflow: scroll;
   position: relative;
+}
+
+.scroll-horizontal {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
