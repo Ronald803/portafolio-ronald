@@ -2,19 +2,15 @@ import React from 'react';
 
 const Presentation = () => {
     return (
-        <div className='card mb-3' style={{'max-width':'740px'}}>
-            <div className='row g-0'>
-                <div className='col-md-8'>
-                    <div className='card-body'>
-                        <h2 className='card-title'>Hello, welcome everybody</h2>
-                        <h1>My name is Ronald</h1>
-                        <h4>I am a full stack web developer, an electronic engineer</h4>
-                    </div>
-                </div>
-                <div className='col-md-4'>
-                    <img className='img-fluid rounded-start' src='../img/foto-perfil.jpg' alt='ronald photo'/>
-                </div>                                
+        <div className='row mt-5 d-flex align-items-center' style={{"height":"500px"}}>
+            <div className='col-sm-8'>
+                <h2 className='text-white' id="scrollspy1">Hola mi nombre es Ronald</h2>
+                <h4 className='text-white'>Desarrollador Web Full Stack</h4>
+                <h4 className='text-white'>Ingeniero Electrónico</h4>                
             </div>
+            <div className='col-sm-4'>
+                <img className='img-fluid rounded' src='../img/foto-perfil.jpg' alt='ronald photo'/>
+            </div>                                
         </div>
     );
 }

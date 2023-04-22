@@ -1,9 +1,10 @@
-.container {
-  position: relative;
-}
+body{
+  background: linear-gradient(to right, #000000, #4c7eac, #000000);
 
-.scroll-horizontal {
-  width: 100%;
-  overflow-x: scroll;
-  white-space: nowrap;
+}
+.container{
+  background-color: transparent !important;
+}
+.logo{
+  height: 40px;
 }
