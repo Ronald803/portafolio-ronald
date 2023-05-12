@@ -1,10 +1,28 @@
 body{
-  background: linear-gradient(to right, #000000, #4c7eac, #000000);
-
+  background-image: url('./../public/img/mandala-gif.gif');  
+  background-size: 480px;
+  background-repeat: round;
+}
+.fondo-body{background: linear-gradient(to right, #000000, #28435c, #000000);}
+.fondo{
+  background: linear-gradient(to right, #000000, #1d2e41, #000000);
 }
 .container{
   background-color: transparent !important;
+  max-width: 950px;
 }
 .logo{
-  height: 40px;
+  height: 60px;
+}
+.ancho-maximo{
+  position: fixed;
+  top: 0;
+  /* max-width: 1000px !important; */
+}
+
+.fondo-presentacion{
+  background-image: url('./../public/img/mandala-gif.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }

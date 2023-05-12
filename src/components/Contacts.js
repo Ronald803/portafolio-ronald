@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
     return (
-        <div>
+        <div className='text-white'>
             <h3 id="scrollspy4">Contacts</h3>
             <p>Cellphone: 72592124</p>
             <p>email: ronaldblancobalboa@gmail.com</p>
