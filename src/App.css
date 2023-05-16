@@ -26,3 +26,6 @@ body{
   background-repeat: no-repeat;
   height: 100%;
 }
+.profile-picture{
+  max-height: 350px;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div id="navbar-example2" className='row  px-3 fixed-top border fondo'>
+        <div id="navbar-example2" className='row  px-3 fixed-top border border-2 fondo'>
             <div className='col-sm-3'>
                 <a href='#scrollspy1'>
                     <img src='../img/logo-removebg.png' className='mt-2 logo'/>
