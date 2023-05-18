@@ -8,25 +8,51 @@ const AboutMe = () => {
                 <h3>About Me</h3>
                 <p>I am Ronald Victor Blanco Balboa, and I am a full stack web developer</p>
                 <p>Estas son algunas de las tecnologías con las que he trabajado:</p>
-                <ul>
-                    <li>JavaScript (ES6+)</li>
-                    <li>React</li>
-                    <li>Node</li>
-                    <li>Redux</li>
-                    <li>MERN</li>
-                    <li>MongoDb</li>
-                </ul>
-                <div className='' style={{"maxWidth":"700px"}}>
-                    <div className='row'>
-                        <div className='col-sm-2 container'><img className='img-fluid' src='../img/logos/html.png'/></div>
-                        <div className='col-sm-2 container'><img className='img-fluid' src='../img/logos/css.png'/></div>
-                        <div className='col-sm-2'><img className='img-fluid' src='../img/logos/javascript.png'/></div>
-                        <div className='col-sm-2'><img className='img-fluid' src='../img/logos/github.png'/></div>
-                        <div className='col-sm-2'><img className='img-fluid' src='../img/logos/mysql.png'/></div>
-                        <div className='col-sm-2 container'><img className='img-fluid' src='../img/logos/nodejs.png'/></div>
-                        <div className='col-sm-2'><img className='img-fluid' src='../img/logos/react.png'/></div>
-                        <div className='col-sm-2'><img className='img-fluid' src='../img/logos/mongodb-logo.png'/></div>
-                        <div className='col-sm-2'><img className='img-fluid' src='../img/logos/mern.png'/></div>
+                <div className='' >
+                    <div className='row pe-4 mx-4 text-center'>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/html-logo.svg'/>
+                            <p>Html 5</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/css-logo.svg'/>
+                            <p>CSS 3</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/javascript-logo.svg'/>
+                            <p>JavaScript</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/skills-git.svg'/>
+                            <p>GIT</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/node-logo.svg'/>
+                            <p>Node JS</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/react.png'/>
+                            <p>React</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/postgresql-logo.svg'/>
+                            <p>PostgreSQL</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/skills-mongodb.svg'/>
+                            <p>MongoDB</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-6 col-md-4 '>
+                            <img className='img-fluid' src='../img/logos/mern.png'/>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/material-ui.svg'/>
+                            <p>Material UI</p>
+                        </div>
+                        <div className='logo-tech rounded-4 pt-4 px-4 col-3 col-md-2 '>
+                            <img className='img-fluid' src='../img/logos/boot.png'/>
+                            <p>Bootstra</p>
+                        </div>
                     </div>
                 </div>
                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> */}
