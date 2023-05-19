@@ -17,6 +17,23 @@ const Presentation = () => {
                             <h3 className='text-white' id="scrollspy1">Ronald Victor Blanco Balboa</h3>
                             <h5 className='text-white'>Full Stack Developer</h5>
                             <h5 className='text-white'>Electronic Engineer</h5>                
+                            <ul className='list-unstyled list-inline mt-4'>
+                                <li className='list-inline-item'>
+                                    <a href='https://github.com/Ronald803'>
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </li>
+                                <li className='list-inline-item'>
+                                    <a href='https://www.linkedin.com/in/ronald-blanco-balboa-a97978264/'>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li className='list-inline-item'>
+                                    <a href='https://www.facebook.com/ronaldvictor.blancobalboa/'>
+                                        <i className='fab fa-facebook'></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <ul></ul>
                     </div>
