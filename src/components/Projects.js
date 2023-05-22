@@ -3,7 +3,7 @@ import ProjectElement from './ProjectElement'
 
 const Projects = () => {
     return (
-        <div id="scrollspy3" className='scroll-horizontal text-white d-flex align-items-center border me-4' style={{"height":"60vw"}}>
+        <div id="scrollspy3" className='scroll-horizontal text-white d-flex align-items-center border me-4' >
             <div className='text-center' style={{"width":"100%"}}>
                 <div className='text-center'>
                     <h2>Projects</h2>
