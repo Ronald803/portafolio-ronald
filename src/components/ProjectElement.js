@@ -14,33 +14,35 @@ const objeto = {
         link: 'https://github.com/Ronald803/prueba_REACT_frontend'
       }
     ],
-    screenshot: "../img/projects/granpoder.png"
+    screenshot: "granpoder.png"
   }
-function ProjectElement() {
+function ProjectElement(props) {
+  const obj = props.project_info
+  console.log({obj});
   return (
-    <div className='row border border-danger py-4'>
-        <div className='col-12 my-2 pt-3 pb-2 border'>
-            <h3>{objeto.title}</h3>
+    <div className='row  py-2'>
+        <div className='col-12 my-2 pt-3 pb-2 border-top border-info'>
+            <h3>{obj.title}</h3>
         </div>
-        <div className='col-6 border py-4'>
-            <img src={objeto.screenshot} class="d-block w-100" alt="Proyecto Eventos Sociales Gran Poder"/>
+        <div className='col-6 border border-info py-4'>
+            <img src={`../img/projects/${obj.screenshot}`} class="d-block w-100" alt="Proyecto Eventos Sociales Gran Poder"/>
         </div>
-        <div className='col-6 border py-4'>
+        <div className='col-6 border border-info py-4'>
           <div>
-            <p>{objeto.description}</p>
+            <p>{obj.description}</p>
           </div>
           <div className='row my-2'>
-            {objeto.technologies.map(tech=>(
-              <div className='col border p-1'>
+            {obj.technologies.map(tech=>(
+              <div className='col border border-info p-1'>
                 {tech}
               </div>
             ))}
           </div>
           <div className='my-4'>
-            <a className='px-4 btn btn-warning' href={objeto.link}>App</a>
+            <a className='px-4 btn btn-warning' href={obj.link}>App</a>
           </div>
           <div className='my-1 row'>
-            {objeto.repositories.map(rep=>(
+            {obj.repositories.map(rep=>(
               <div className='col-3'>
                 <a className='btn btn-secondary' href={rep.link}>{rep.name}</a>
               </div>
