@@ -3,10 +3,10 @@ import ProjectElement from './ProjectElement'
 
 const Projects = () => {
     return (
-        <div id="scrollspy3" className=' bg-black bg-opacity-10 scroll-horizontal text-white d-flex align-items-center border ' >
+        <div id="scrollspy3" className=' scroll-horizontal text-black d-flex align-items-center ' >
             <div className='text-center pt-4 my-4' style={{"width":"100%"}}>
                 <div className='text-center'>
-                    <h2>Projects</h2>
+                    <h1>Projects</h1>
                 </div>
                 <div className=''>
                     <div id="carouselExampleFade" className="carousel slide carousel-fade">

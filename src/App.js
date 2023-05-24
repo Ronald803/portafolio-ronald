@@ -10,7 +10,7 @@ function App() {
     <div className="container" >
       <Navbar></Navbar>
       <br></br>
-      <div className='fondo-body  border border-2'>
+      <div className='bg-black border border-2'>
         <Presentation></Presentation>
         <AboutMe></AboutMe>
         <Projects></Projects>

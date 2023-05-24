@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div id="scrollspy2" className='ps-4 text-white d-flex align-items-center' style={{"height":"50vw"}}>
+        <div id="scrollspy2" className='bg-primary bg-opacity-10 ps-4 text-white d-flex align-items-center' style={{"height":"50vw"}}>
             <div className='text-center'>
-                <div className='row py-4 me-2 bg-black'>
+                <div className='row py-4 me-2'>
                     <div className='my-4 col-12'>
                         <h1>About Me</h1>
                     </div>
