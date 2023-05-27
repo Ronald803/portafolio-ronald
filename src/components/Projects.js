@@ -3,9 +3,9 @@ import ProjectElement from './ProjectElement'
 
 const Projects = () => {
     return (
-        <div id="scrollspy3" className=' scroll-horizontal text-black d-flex align-items-center ' >
+        <div id="scrollspy3" className=' scroll-horizontal text-black d-flex align-items-center mb-4' >
             <div className='text-center pt-4 my-4' style={{"width":"100%"}}>
-                <div className='text-center'>
+                <div className='text-center text-white'>
                     <h1>Projects</h1>
                 </div>
                 <div className=''>

@@ -9,7 +9,7 @@ body{
 }
 .container{
   background-color: transparent !important;
-  max-width: 980px;
+  max-width: 990px;
 }
 .logo{
   height: 60px;
@@ -33,4 +33,7 @@ body{
   background-color: #4e5964;
   border: 1px solid white;
   border-radius: 5px;
+}
+a .fab{
+  font-size: 30px;
 }
