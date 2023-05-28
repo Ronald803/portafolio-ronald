@@ -6,7 +6,7 @@ const Presentation = () => {
             <div className='my-4 mx-1 row  py-4' style={{"width":"100%"}}>
                 <div className='col-sm-6 text-end d-flex align-items-center px-4'>
                     <div className='' style={{"width":"100%"}}>
-                        <img className='img-fluid rounded border border-2 profile-picture' src='../img/foto-perfil.jpg' alt='ronald photo'/>
+                        <img className='img-fluid rounded border border-2 profile-picture' src='img/foto-perfil.jpg' alt='ronald photo'/>
                     </div>
                 </div>                                
                 <div className='col-sm-6 d-flex align-items-center px-4'>

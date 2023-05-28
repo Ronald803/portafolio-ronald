@@ -1,21 +1,4 @@
 import React from 'react'
-const objeto = {
-    title: 'Sistema de Reservas Gran Poder',
-    description: 'Aplicacion desarrollada para la empresa Eventos Sociales Gran Poder, consta de un sistema de reserva de los servicios que ofrece la empresa Gran Poder',
-    technologies: ['React','Node','MongoDB','Bootstrap'],
-    link: 'https://eventos-gran-poder.vercel.app/',
-    repositories: [
-      {
-        name: 'Repo Backend',
-        link: 'https://github.com/Ronald803/restserver-proyecto',
-      },
-      {
-        name: 'Repo Frontend',
-        link: 'https://github.com/Ronald803/prueba_REACT_frontend'
-      }
-    ],
-    screenshot: "granpoder.png"
-  }
 function ProjectElement(props) {
   const obj = props.project_info
   console.log({obj});
@@ -26,7 +9,7 @@ function ProjectElement(props) {
         </div>
         <div className='col-6  py-4'>
             <div className='ps-3 ms-3'>
-              <img src={`../img/projects/${obj.screenshot}`} class="d-block w-100" alt="Proyecto Eventos Sociales Gran Poder"/>
+              <img src={`img/projects/${obj.screenshot}`} class="d-block w-100" alt="Proyecto Eventos Sociales Gran Poder"/>
             </div>
         </div>
         <div className='col-6  py-4'>

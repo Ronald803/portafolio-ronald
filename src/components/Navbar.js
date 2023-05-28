@@ -5,7 +5,7 @@ const Navbar = () => {
         <div id="navbar-example2" className='row  px-3 fixed-top border border-2 bg-black'>
             <div className='col-sm-3'>
                 <a href='#scrollspy1'>
-                    <img src='../img/logo-removebg.png' className='mt-2 logo'/>
+                    <img src='img/logo-removebg.png' className='mt-2 logo'/>
                 </a>
             </div>
             <div className='col-sm-9'>
