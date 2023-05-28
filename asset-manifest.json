@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portafolio-ronald/static/css/main.b76c27b2.css",
-    "main.js": "/portafolio-ronald/static/js/main.37e4c0be.js",
+    "main.js": "/portafolio-ronald/static/js/main.2a016e97.js",
     "static/media/mandala-gif.gif": "/portafolio-ronald/static/media/mandala-gif.79f866a57c22a852de4f.gif",
     "index.html": "/portafolio-ronald/index.html",
     "main.b76c27b2.css.map": "/portafolio-ronald/static/css/main.b76c27b2.css.map",
-    "main.37e4c0be.js.map": "/portafolio-ronald/static/js/main.37e4c0be.js.map"
+    "main.2a016e97.js.map": "/portafolio-ronald/static/js/main.2a016e97.js.map"
   },
   "entrypoints": [
     "static/css/main.b76c27b2.css",
-    "static/js/main.37e4c0be.js"
+    "static/js/main.2a016e97.js"
   ]
 }
